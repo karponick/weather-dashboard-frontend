@@ -1,0 +1,22 @@
+.airDetails {
+    border: 1px solid #1d3557;
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+    background-color: #f1faee;
+    text-align: center;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .airDetails {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .airDetails {
+        width: 90%;
+    }
+}

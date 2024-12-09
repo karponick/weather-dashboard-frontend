@@ -1,0 +1,24 @@
+.weatherDetails {
+    background-color: #1d3557;
+    padding: 1em;
+    color: #f1faee;
+    width: 100%;
+}
+
+.smallMsg {
+    font-size: 0.8em;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .weatherDetails {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .weatherDetails {
+        width: 100%;
+    }
+}
